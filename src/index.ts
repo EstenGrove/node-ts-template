@@ -13,6 +13,6 @@ const greeting = (msg: string) => {
 const msg = await greeting('Node w/ Typescript, ESM & Top-level await. \nUse: npx tsx <file> to execute a node script!')
 
 process.stdout.write(`Current File: ${__filename} \n`)
-process.stdout.write(`Current Dir: ${__dirname}`)
+process.stdout.write(`Current Dir: ${__dirname} \n\n`)
 process.stdout.write(msg)
 
